@@ -138,9 +138,11 @@ def train(epochs = num_epochs, plt_frq = 1, BATCH_SIZE = 128):
         plotLoss("na", False)
 
 #%%
+# Train Model
 train()
 
 #%%
+# Create Results
 plotLoss("final")
 plotGeneration("final")
 

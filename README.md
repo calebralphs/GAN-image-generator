@@ -6,9 +6,11 @@ GAN for generating MNIST digit images
 
 The script is structured into individual cells in the 'GAN.py' file to replicate an ipynb file, but usable within VSCode. The cells can be run in chronological order, and the code will execute correctly.
 
-The train() function outputs the loss graph on the completion of each epoch, plotting the discriminative and generative loss against the eopochs.
+The train() function, found in the Training cell, outputs the loss graph on the completion of each epoch, plotting the discriminative and generative loss against the eopochs. The cell below the Training cell is the Train Model cell which when run, executes the train() function.
 
-In the training cell you can find the defined 'num_epochs' variable, if you want to change this for running the code.
+In the Training cell you can find the defined 'num_epochs' variable, initially set to 100, if you want to change this for running the code.
+
+To generate the results run the cell below the Train Model cell, the Create Results cell. This cell calls the plotLoss() and plotGeneration() functions.
 
 
 ### Expiramental Results
